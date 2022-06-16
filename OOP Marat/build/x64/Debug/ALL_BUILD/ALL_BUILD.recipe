@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\patterns\Debug\Adapter.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\modules\tests\Debug\BigIntTests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\modules\tests\Debug\CSVTests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\CalcMach\Debug\CalcMachine.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\CalcMach\Debug\CalcMachineTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\modules\tests\Debug\DictTests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\patterns\Debug\Observer.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\patterns\Debug\Singleton.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\modules\tests\Debug\StackTests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\register-and-login\Debug\login.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\tasks\register-and-login\Debug\register.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Ws\Desktop\OOP Marat\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
