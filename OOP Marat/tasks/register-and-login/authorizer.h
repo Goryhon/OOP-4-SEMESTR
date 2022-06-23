@@ -37,11 +37,15 @@ public:
 
     void register_user();
 
+    bool register_user(const string &username, const string &password);
+
     void log_in_user();
+
+    bool log_in_user(const string &username, const string &password);
 };
 
 
-Auth createBasicAuthorizer(const string& csv_path);
+Auth createBasicAuthorizer(const string &csv_path);
 
 string hashFunction(const string &key);
 

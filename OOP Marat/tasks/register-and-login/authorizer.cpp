@@ -49,8 +49,8 @@ string hashFunction(const string &key) {
 }
 
 void Auth::update_DB_file() {
-    string* keys = users.get_keys();
-    string** table = new string*[users.length()];
+    string *keys = users.get_keys();
+    string **table = new string *[users.length()];
     for (int i = 0; i < users.length(); i++) {
         table[i] = new string[2];
         table[i][0] = keys[i];
@@ -123,6 +123,20 @@ string Auth::login_ask_password(const string &username) {
     return password;
 }
 
+bool Auth::register_user(const string &username, const string &password) {
+    bool user_exist = this->is_name_exist(username);
+    if (!user_exist) {
+        this->users[username] = hashFunction(password);
+        this->update_DB_file();
+    }
+    return !user_exist;
+}
+
+bool Auth::log_in_user(const string &username, const string &password) {
+    return (this->is_name_exist(username) &&
+            this->is_password_correct(username, password));
+}
+
 dict<string> convert_csv_to_dict(csv csv_parser) {
     dict<string> res;
     for (int i = 0; i < csv_parser.length(); i++) {
@@ -131,7 +145,7 @@ dict<string> convert_csv_to_dict(csv csv_parser) {
     return res;
 }
 
-Auth createBasicAuthorizer(const string& csv_path) {
+Auth createBasicAuthorizer(const string &csv_path) {
     LoggerCMDFact logger_fact;
     auto logger = logger_fact.create();
     return Auth(logger, csv_path);
